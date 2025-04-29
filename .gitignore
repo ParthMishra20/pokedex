@@ -1,0 +1,68 @@
+# Dependency directories
+node_modules/
+.npm/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Hardhat files
+cache/
+artifacts/
+typechain-types/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Coverage directory used by tools like istanbul
+coverage/
+coverage.json
+
+# Local contract deployments
+deployments/
+
+# Gas reporter output
+gas-report.txt
+
+# Compiled contract artifacts that aren't needed in git
+abis/
+
+# Lock files for different package managers (keep the one you use)
+# Uncomment to ignore package-lock.json if using yarn or pnpm
+# package-lock.json
+# Uncomment to ignore yarn.lock if using npm or pnpm
+# yarn.lock
+# Uncomment to ignore pnpm-lock.yaml if using npm or yarn
+# pnpm-lock.yaml
+
+# Cache files for Hardhat
+.hardhat/
